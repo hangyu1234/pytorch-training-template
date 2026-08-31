@@ -1,0 +1,818 @@
+2026-08-26 11:34:52,238 - INFO - Logger test successful.
+2026-08-26 11:39:54,115 - INFO - Logger test successful.
+2026-08-26 11:40:20,052 - INFO - ===== Training Started =====
+2026-08-26 11:40:20,056 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:20,057 - INFO - Epoch [1/100] Train Loss: 3.992978 Val Loss: 2.710952
+2026-08-26 11:40:20,109 - INFO - ===== Training Finished =====
+2026-08-26 11:40:20,110 - INFO - Best Val Loss: 2.710952
+2026-08-26 11:40:20,153 - INFO - ===== Training Started =====
+2026-08-26 11:40:20,153 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:20,154 - INFO - Epoch [2/100] Train Loss: 1.554725 Val Loss: 1.049293
+2026-08-26 11:40:20,177 - INFO - ===== Training Finished =====
+2026-08-26 11:40:20,178 - INFO - Best Val Loss: 1.049293
+2026-08-26 11:40:20,206 - INFO - ===== Training Started =====
+2026-08-26 11:40:20,207 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:20,208 - INFO - Epoch [3/100] Train Loss: 0.609239 Val Loss: 0.408984
+2026-08-26 11:40:20,230 - INFO - ===== Training Finished =====
+2026-08-26 11:40:20,231 - INFO - Best Val Loss: 0.408984
+2026-08-26 11:40:20,267 - INFO - ===== Training Started =====
+2026-08-26 11:40:20,268 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:20,269 - INFO - Epoch [4/100] Train Loss: 0.242869 Val Loss: 0.162983
+2026-08-26 11:40:20,296 - INFO - ===== Training Finished =====
+2026-08-26 11:40:20,296 - INFO - Best Val Loss: 0.162983
+2026-08-26 11:40:20,328 - INFO - ===== Training Started =====
+2026-08-26 11:40:20,329 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:20,330 - INFO - Epoch [5/100] Train Loss: 0.100692 Val Loss: 0.068479
+2026-08-26 11:40:20,359 - INFO - ===== Training Finished =====
+2026-08-26 11:40:20,360 - INFO - Best Val Loss: 0.068479
+2026-08-26 11:40:20,399 - INFO - ===== Training Started =====
+2026-08-26 11:40:20,400 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:20,401 - INFO - Epoch [6/100] Train Loss: 0.045386 Val Loss: 0.032156
+2026-08-26 11:40:20,425 - INFO - ===== Training Finished =====
+2026-08-26 11:40:20,426 - INFO - Best Val Loss: 0.032156
+2026-08-26 11:40:20,464 - INFO - ===== Training Started =====
+2026-08-26 11:40:20,465 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:20,466 - INFO - Epoch [7/100] Train Loss: 0.023771 Val Loss: 0.018380
+2026-08-26 11:40:21,127 - INFO - ===== Training Finished =====
+2026-08-26 11:40:21,127 - INFO - Best Val Loss: 0.018380
+2026-08-26 11:40:21,165 - INFO - ===== Training Started =====
+2026-08-26 11:40:21,166 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:21,166 - INFO - Epoch [8/100] Train Loss: 0.015405 Val Loss: 0.013248
+2026-08-26 11:40:21,203 - INFO - ===== Training Finished =====
+2026-08-26 11:40:21,205 - INFO - Best Val Loss: 0.013248
+2026-08-26 11:40:21,238 - INFO - ===== Training Started =====
+2026-08-26 11:40:21,239 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:21,240 - INFO - Epoch [9/100] Train Loss: 0.012172 Val Loss: 0.011328
+2026-08-26 11:40:21,266 - INFO - ===== Training Finished =====
+2026-08-26 11:40:21,267 - INFO - Best Val Loss: 0.011328
+2026-08-26 11:40:21,302 - INFO - ===== Training Started =====
+2026-08-26 11:40:21,303 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:21,303 - INFO - Epoch [10/100] Train Loss: 0.010887 Val Loss: 0.010608
+2026-08-26 11:40:21,323 - INFO - ===== Training Finished =====
+2026-08-26 11:40:21,323 - INFO - Best Val Loss: 0.010608
+2026-08-26 11:40:21,353 - INFO - ===== Training Started =====
+2026-08-26 11:40:21,354 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:21,354 - INFO - Epoch [11/100] Train Loss: 0.010380 Val Loss: 0.010354
+2026-08-26 11:40:21,381 - INFO - ===== Training Finished =====
+2026-08-26 11:40:21,382 - INFO - Best Val Loss: 0.010354
+2026-08-26 11:40:21,422 - INFO - ===== Training Started =====
+2026-08-26 11:40:21,424 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:21,424 - INFO - Epoch [12/100] Train Loss: 0.010172 Val Loss: 0.010272
+2026-08-26 11:40:21,457 - INFO - ===== Training Finished =====
+2026-08-26 11:40:21,457 - INFO - Best Val Loss: 0.010272
+2026-08-26 11:40:21,605 - INFO - ===== Training Started =====
+2026-08-26 11:40:21,606 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:21,606 - INFO - Epoch [13/100] Train Loss: 0.010102 Val Loss: 0.010236
+2026-08-26 11:40:21,627 - INFO - ===== Training Finished =====
+2026-08-26 11:40:21,627 - INFO - Best Val Loss: 0.010236
+2026-08-26 11:40:21,664 - INFO - ===== Training Started =====
+2026-08-26 11:40:21,665 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:21,666 - INFO - Epoch [14/100] Train Loss: 0.010066 Val Loss: 0.010244
+2026-08-26 11:40:21,666 - INFO - ===== Training Finished =====
+2026-08-26 11:40:21,667 - INFO - Best Val Loss: 0.010236
+2026-08-26 11:40:21,702 - INFO - ===== Training Started =====
+2026-08-26 11:40:21,703 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:21,704 - INFO - Epoch [15/100] Train Loss: 0.010061 Val Loss: 0.010254
+2026-08-26 11:40:21,704 - INFO - ===== Training Finished =====
+2026-08-26 11:40:21,705 - INFO - Best Val Loss: 0.010236
+2026-08-26 11:40:21,737 - INFO - ===== Training Started =====
+2026-08-26 11:40:21,738 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:21,739 - INFO - Epoch [16/100] Train Loss: 0.010053 Val Loss: 0.010240
+2026-08-26 11:40:21,739 - INFO - ===== Training Finished =====
+2026-08-26 11:40:21,739 - INFO - Best Val Loss: 0.010236
+2026-08-26 11:40:21,769 - INFO - ===== Training Started =====
+2026-08-26 11:40:21,769 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:21,770 - INFO - Epoch [17/100] Train Loss: 0.010053 Val Loss: 0.010257
+2026-08-26 11:40:21,770 - INFO - ===== Training Finished =====
+2026-08-26 11:40:21,771 - INFO - Best Val Loss: 0.010236
+2026-08-26 11:40:21,807 - INFO - ===== Training Started =====
+2026-08-26 11:40:21,808 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:21,809 - INFO - Epoch [18/100] Train Loss: 0.010054 Val Loss: 0.010233
+2026-08-26 11:40:21,835 - INFO - ===== Training Finished =====
+2026-08-26 11:40:21,835 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:21,866 - INFO - ===== Training Started =====
+2026-08-26 11:40:21,868 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:21,868 - INFO - Epoch [19/100] Train Loss: 0.010057 Val Loss: 0.010263
+2026-08-26 11:40:21,869 - INFO - ===== Training Finished =====
+2026-08-26 11:40:21,869 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:21,898 - INFO - ===== Training Started =====
+2026-08-26 11:40:21,899 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:21,900 - INFO - Epoch [20/100] Train Loss: 0.010053 Val Loss: 0.010266
+2026-08-26 11:40:21,901 - INFO - ===== Training Finished =====
+2026-08-26 11:40:21,901 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:21,935 - INFO - ===== Training Started =====
+2026-08-26 11:40:21,936 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:21,937 - INFO - Epoch [21/100] Train Loss: 0.010053 Val Loss: 0.010258
+2026-08-26 11:40:21,937 - INFO - ===== Training Finished =====
+2026-08-26 11:40:21,938 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:21,971 - INFO - ===== Training Started =====
+2026-08-26 11:40:21,972 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:21,973 - INFO - Epoch [22/100] Train Loss: 0.010052 Val Loss: 0.010261
+2026-08-26 11:40:21,974 - INFO - ===== Training Finished =====
+2026-08-26 11:40:21,975 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,014 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,015 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,016 - INFO - Epoch [23/100] Train Loss: 0.010052 Val Loss: 0.010288
+2026-08-26 11:40:22,016 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,017 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,060 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,061 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,062 - INFO - Epoch [24/100] Train Loss: 0.010051 Val Loss: 0.010275
+2026-08-26 11:40:22,063 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,064 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,097 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,099 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,100 - INFO - Epoch [25/100] Train Loss: 0.010052 Val Loss: 0.010256
+2026-08-26 11:40:22,101 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,102 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,135 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,136 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,136 - INFO - Epoch [26/100] Train Loss: 0.010059 Val Loss: 0.010255
+2026-08-26 11:40:22,137 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,137 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,168 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,169 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,169 - INFO - Epoch [27/100] Train Loss: 0.010050 Val Loss: 0.010242
+2026-08-26 11:40:22,170 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,170 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,199 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,200 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,200 - INFO - Epoch [28/100] Train Loss: 0.010048 Val Loss: 0.010255
+2026-08-26 11:40:22,201 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,201 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,231 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,232 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,232 - INFO - Epoch [29/100] Train Loss: 0.010052 Val Loss: 0.010236
+2026-08-26 11:40:22,233 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,233 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,264 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,265 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,265 - INFO - Epoch [30/100] Train Loss: 0.010053 Val Loss: 0.010257
+2026-08-26 11:40:22,266 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,266 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,298 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,298 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,299 - INFO - Epoch [31/100] Train Loss: 0.010050 Val Loss: 0.010235
+2026-08-26 11:40:22,299 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,300 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,332 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,333 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,333 - INFO - Epoch [32/100] Train Loss: 0.010051 Val Loss: 0.010246
+2026-08-26 11:40:22,334 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,334 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,367 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,368 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,368 - INFO - Epoch [33/100] Train Loss: 0.010050 Val Loss: 0.010233
+2026-08-26 11:40:22,368 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,369 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,399 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,400 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,400 - INFO - Epoch [34/100] Train Loss: 0.010049 Val Loss: 0.010252
+2026-08-26 11:40:22,401 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,401 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,428 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,429 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,429 - INFO - Epoch [35/100] Train Loss: 0.010053 Val Loss: 0.010265
+2026-08-26 11:40:22,430 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,430 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,459 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,460 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,460 - INFO - Epoch [36/100] Train Loss: 0.010051 Val Loss: 0.010238
+2026-08-26 11:40:22,461 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,461 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,497 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,498 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,499 - INFO - Epoch [37/100] Train Loss: 0.010055 Val Loss: 0.010247
+2026-08-26 11:40:22,499 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,500 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,536 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,537 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,538 - INFO - Epoch [38/100] Train Loss: 0.010052 Val Loss: 0.010249
+2026-08-26 11:40:22,538 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,539 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,571 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,572 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,572 - INFO - Epoch [39/100] Train Loss: 0.010054 Val Loss: 0.010256
+2026-08-26 11:40:22,572 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,573 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,810 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,811 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,811 - INFO - Epoch [40/100] Train Loss: 0.010056 Val Loss: 0.010245
+2026-08-26 11:40:22,812 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,812 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,837 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,838 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,838 - INFO - Epoch [41/100] Train Loss: 0.010051 Val Loss: 0.010264
+2026-08-26 11:40:22,838 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,839 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,880 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,880 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,881 - INFO - Epoch [42/100] Train Loss: 0.010055 Val Loss: 0.010265
+2026-08-26 11:40:22,882 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,883 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,918 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,919 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,921 - INFO - Epoch [43/100] Train Loss: 0.010049 Val Loss: 0.010271
+2026-08-26 11:40:22,921 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,922 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,960 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,961 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,961 - INFO - Epoch [44/100] Train Loss: 0.010056 Val Loss: 0.010256
+2026-08-26 11:40:22,962 - INFO - ===== Training Finished =====
+2026-08-26 11:40:22,962 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:22,997 - INFO - ===== Training Started =====
+2026-08-26 11:40:22,998 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:22,999 - INFO - Epoch [45/100] Train Loss: 0.010054 Val Loss: 0.010238
+2026-08-26 11:40:23,000 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,001 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,045 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,046 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,047 - INFO - Epoch [46/100] Train Loss: 0.010059 Val Loss: 0.010236
+2026-08-26 11:40:23,047 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,048 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,078 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,079 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,079 - INFO - Epoch [47/100] Train Loss: 0.010050 Val Loss: 0.010252
+2026-08-26 11:40:23,080 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,080 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,115 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,116 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,116 - INFO - Epoch [48/100] Train Loss: 0.010057 Val Loss: 0.010253
+2026-08-26 11:40:23,117 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,117 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,258 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,259 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,259 - INFO - Epoch [49/100] Train Loss: 0.010051 Val Loss: 0.010252
+2026-08-26 11:40:23,260 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,260 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,287 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,288 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,289 - INFO - Epoch [50/100] Train Loss: 0.010054 Val Loss: 0.010258
+2026-08-26 11:40:23,290 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,290 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,322 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,323 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,323 - INFO - Epoch [51/100] Train Loss: 0.010052 Val Loss: 0.010269
+2026-08-26 11:40:23,324 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,324 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,355 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,356 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,356 - INFO - Epoch [52/100] Train Loss: 0.010057 Val Loss: 0.010272
+2026-08-26 11:40:23,357 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,357 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,391 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,392 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,392 - INFO - Epoch [53/100] Train Loss: 0.010065 Val Loss: 0.010281
+2026-08-26 11:40:23,392 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,393 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,420 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,422 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,422 - INFO - Epoch [54/100] Train Loss: 0.010050 Val Loss: 0.010270
+2026-08-26 11:40:23,422 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,422 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,455 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,456 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,456 - INFO - Epoch [55/100] Train Loss: 0.010050 Val Loss: 0.010255
+2026-08-26 11:40:23,457 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,457 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,485 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,485 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,486 - INFO - Epoch [56/100] Train Loss: 0.010049 Val Loss: 0.010254
+2026-08-26 11:40:23,486 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,486 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,515 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,516 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,516 - INFO - Epoch [57/100] Train Loss: 0.010056 Val Loss: 0.010244
+2026-08-26 11:40:23,517 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,517 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,550 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,550 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,551 - INFO - Epoch [58/100] Train Loss: 0.010056 Val Loss: 0.010240
+2026-08-26 11:40:23,552 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,552 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,583 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,584 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,585 - INFO - Epoch [59/100] Train Loss: 0.010059 Val Loss: 0.010251
+2026-08-26 11:40:23,585 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,586 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,619 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,619 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,620 - INFO - Epoch [60/100] Train Loss: 0.010052 Val Loss: 0.010251
+2026-08-26 11:40:23,620 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,620 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,655 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,656 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,656 - INFO - Epoch [61/100] Train Loss: 0.010044 Val Loss: 0.010263
+2026-08-26 11:40:23,657 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,657 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,690 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,691 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,691 - INFO - Epoch [62/100] Train Loss: 0.010055 Val Loss: 0.010259
+2026-08-26 11:40:23,692 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,692 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,723 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,724 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,725 - INFO - Epoch [63/100] Train Loss: 0.010055 Val Loss: 0.010255
+2026-08-26 11:40:23,725 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,726 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,755 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,756 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,756 - INFO - Epoch [64/100] Train Loss: 0.010052 Val Loss: 0.010250
+2026-08-26 11:40:23,756 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,757 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,791 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,792 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,793 - INFO - Epoch [65/100] Train Loss: 0.010047 Val Loss: 0.010254
+2026-08-26 11:40:23,794 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,794 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,827 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,828 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,828 - INFO - Epoch [66/100] Train Loss: 0.010058 Val Loss: 0.010260
+2026-08-26 11:40:23,829 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,829 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,862 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,863 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,864 - INFO - Epoch [67/100] Train Loss: 0.010050 Val Loss: 0.010257
+2026-08-26 11:40:23,864 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,865 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,899 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,900 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,900 - INFO - Epoch [68/100] Train Loss: 0.010051 Val Loss: 0.010253
+2026-08-26 11:40:23,901 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,901 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,933 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,933 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,934 - INFO - Epoch [69/100] Train Loss: 0.010055 Val Loss: 0.010252
+2026-08-26 11:40:23,935 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,935 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:23,968 - INFO - ===== Training Started =====
+2026-08-26 11:40:23,969 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:23,969 - INFO - Epoch [70/100] Train Loss: 0.010058 Val Loss: 0.010247
+2026-08-26 11:40:23,970 - INFO - ===== Training Finished =====
+2026-08-26 11:40:23,971 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,006 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,007 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,007 - INFO - Epoch [71/100] Train Loss: 0.010057 Val Loss: 0.010256
+2026-08-26 11:40:24,007 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,008 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,037 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,038 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,039 - INFO - Epoch [72/100] Train Loss: 0.010057 Val Loss: 0.010272
+2026-08-26 11:40:24,039 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,039 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,073 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,074 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,075 - INFO - Epoch [73/100] Train Loss: 0.010056 Val Loss: 0.010262
+2026-08-26 11:40:24,075 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,076 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,110 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,110 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,111 - INFO - Epoch [74/100] Train Loss: 0.010055 Val Loss: 0.010260
+2026-08-26 11:40:24,111 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,112 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,146 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,147 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,147 - INFO - Epoch [75/100] Train Loss: 0.010047 Val Loss: 0.010278
+2026-08-26 11:40:24,148 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,148 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,178 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,179 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,179 - INFO - Epoch [76/100] Train Loss: 0.010060 Val Loss: 0.010267
+2026-08-26 11:40:24,180 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,180 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,218 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,219 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,220 - INFO - Epoch [77/100] Train Loss: 0.010057 Val Loss: 0.010248
+2026-08-26 11:40:24,221 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,221 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,259 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,260 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,261 - INFO - Epoch [78/100] Train Loss: 0.010049 Val Loss: 0.010263
+2026-08-26 11:40:24,261 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,261 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,294 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,295 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,296 - INFO - Epoch [79/100] Train Loss: 0.010047 Val Loss: 0.010257
+2026-08-26 11:40:24,296 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,297 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,332 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,333 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,333 - INFO - Epoch [80/100] Train Loss: 0.010056 Val Loss: 0.010274
+2026-08-26 11:40:24,334 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,334 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,370 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,371 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,371 - INFO - Epoch [81/100] Train Loss: 0.010052 Val Loss: 0.010275
+2026-08-26 11:40:24,372 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,372 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,403 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,404 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,405 - INFO - Epoch [82/100] Train Loss: 0.010057 Val Loss: 0.010280
+2026-08-26 11:40:24,405 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,406 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,441 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,442 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,442 - INFO - Epoch [83/100] Train Loss: 0.010054 Val Loss: 0.010268
+2026-08-26 11:40:24,443 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,443 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,474 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,475 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,475 - INFO - Epoch [84/100] Train Loss: 0.010054 Val Loss: 0.010256
+2026-08-26 11:40:24,475 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,476 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,508 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,508 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,509 - INFO - Epoch [85/100] Train Loss: 0.010052 Val Loss: 0.010262
+2026-08-26 11:40:24,509 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,510 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,541 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,542 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,542 - INFO - Epoch [86/100] Train Loss: 0.010051 Val Loss: 0.010268
+2026-08-26 11:40:24,543 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,543 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,573 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,574 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,574 - INFO - Epoch [87/100] Train Loss: 0.010050 Val Loss: 0.010286
+2026-08-26 11:40:24,575 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,575 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,717 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,717 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,718 - INFO - Epoch [88/100] Train Loss: 0.010051 Val Loss: 0.010288
+2026-08-26 11:40:24,718 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,718 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,746 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,747 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,747 - INFO - Epoch [89/100] Train Loss: 0.010055 Val Loss: 0.010277
+2026-08-26 11:40:24,747 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,748 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,775 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,776 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,776 - INFO - Epoch [90/100] Train Loss: 0.010051 Val Loss: 0.010269
+2026-08-26 11:40:24,776 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,777 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,806 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,806 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,807 - INFO - Epoch [91/100] Train Loss: 0.010047 Val Loss: 0.010283
+2026-08-26 11:40:24,808 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,808 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,842 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,842 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,843 - INFO - Epoch [92/100] Train Loss: 0.010053 Val Loss: 0.010274
+2026-08-26 11:40:24,843 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,844 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,873 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,874 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,874 - INFO - Epoch [93/100] Train Loss: 0.010049 Val Loss: 0.010266
+2026-08-26 11:40:24,875 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,875 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,902 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,903 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,904 - INFO - Epoch [94/100] Train Loss: 0.010052 Val Loss: 0.010267
+2026-08-26 11:40:24,904 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,905 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,935 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,936 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,937 - INFO - Epoch [95/100] Train Loss: 0.010058 Val Loss: 0.010261
+2026-08-26 11:40:24,937 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,937 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:24,969 - INFO - ===== Training Started =====
+2026-08-26 11:40:24,970 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:24,970 - INFO - Epoch [96/100] Train Loss: 0.010049 Val Loss: 0.010259
+2026-08-26 11:40:24,971 - INFO - ===== Training Finished =====
+2026-08-26 11:40:24,972 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:25,000 - INFO - ===== Training Started =====
+2026-08-26 11:40:25,000 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:25,001 - INFO - Epoch [97/100] Train Loss: 0.010054 Val Loss: 0.010282
+2026-08-26 11:40:25,001 - INFO - ===== Training Finished =====
+2026-08-26 11:40:25,002 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:25,031 - INFO - ===== Training Started =====
+2026-08-26 11:40:25,032 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:25,032 - INFO - Epoch [98/100] Train Loss: 0.010051 Val Loss: 0.010280
+2026-08-26 11:40:25,033 - INFO - ===== Training Finished =====
+2026-08-26 11:40:25,033 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:25,062 - INFO - ===== Training Started =====
+2026-08-26 11:40:25,063 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:25,064 - INFO - Epoch [99/100] Train Loss: 0.010047 Val Loss: 0.010255
+2026-08-26 11:40:25,064 - INFO - ===== Training Finished =====
+2026-08-26 11:40:25,065 - INFO - Best Val Loss: 0.010233
+2026-08-26 11:40:25,096 - INFO - ===== Training Started =====
+2026-08-26 11:40:25,096 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-26 11:40:25,097 - INFO - Epoch [100/100] Train Loss: 0.010053 Val Loss: 0.010247
+2026-08-26 11:40:25,097 - INFO - ===== Training Finished =====
+2026-08-26 11:40:25,097 - INFO - Best Val Loss: 0.010233
+2026-08-28 19:21:36,696 - INFO - ===== Training Started =====
+2026-08-28 19:21:36,704 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}}
+2026-08-28 19:21:36,755 - INFO - Epoch [1/100] Train Loss: 3.992978 Val Loss: 2.710952LR: 0.010000
+2026-08-28 19:21:36,869 - INFO - Epoch [2/100] Train Loss: 1.554725 Val Loss: 1.049293LR: 0.010000
+2026-08-28 19:21:36,935 - INFO - Epoch [3/100] Train Loss: 0.609239 Val Loss: 0.408984LR: 0.010000
+2026-08-28 19:21:37,608 - INFO - Epoch [4/100] Train Loss: 0.242869 Val Loss: 0.162983LR: 0.010000
+2026-08-28 19:21:37,678 - INFO - Epoch [5/100] Train Loss: 0.100692 Val Loss: 0.068479LR: 0.010000
+2026-08-28 19:21:37,749 - INFO - Epoch [6/100] Train Loss: 0.045386 Val Loss: 0.032156LR: 0.010000
+2026-08-28 19:21:37,826 - INFO - Epoch [7/100] Train Loss: 0.023771 Val Loss: 0.018380LR: 0.010000
+2026-08-28 19:21:37,898 - INFO - Epoch [8/100] Train Loss: 0.015405 Val Loss: 0.013248LR: 0.010000
+2026-08-28 19:21:37,968 - INFO - Epoch [9/100] Train Loss: 0.012172 Val Loss: 0.011328LR: 0.010000
+2026-08-28 19:21:38,142 - INFO - Epoch [10/100] Train Loss: 0.010887 Val Loss: 0.010608LR: 0.010000
+2026-08-28 19:21:38,205 - INFO - Epoch [11/100] Train Loss: 0.010380 Val Loss: 0.010354LR: 0.010000
+2026-08-28 19:21:38,273 - INFO - Epoch [12/100] Train Loss: 0.010172 Val Loss: 0.010272LR: 0.010000
+2026-08-28 19:21:38,335 - INFO - Epoch [13/100] Train Loss: 0.010102 Val Loss: 0.010236LR: 0.010000
+2026-08-28 19:21:38,398 - INFO - Epoch [14/100] Train Loss: 0.010066 Val Loss: 0.010244LR: 0.010000
+2026-08-28 19:21:38,438 - INFO - Epoch [15/100] Train Loss: 0.010061 Val Loss: 0.010254LR: 0.010000
+2026-08-28 19:21:38,476 - INFO - Epoch [16/100] Train Loss: 0.010053 Val Loss: 0.010240LR: 0.010000
+2026-08-28 19:21:38,510 - INFO - Epoch [17/100] Train Loss: 0.010053 Val Loss: 0.010257LR: 0.010000
+2026-08-28 19:21:38,549 - INFO - Epoch [18/100] Train Loss: 0.010054 Val Loss: 0.010233LR: 0.010000
+2026-08-28 19:21:38,610 - INFO - Epoch [19/100] Train Loss: 0.010057 Val Loss: 0.010263LR: 0.010000
+2026-08-28 19:21:38,649 - INFO - Epoch [20/100] Train Loss: 0.010053 Val Loss: 0.010266LR: 0.010000
+2026-08-28 19:21:38,687 - INFO - Epoch [21/100] Train Loss: 0.010053 Val Loss: 0.010258LR: 0.010000
+2026-08-28 19:21:38,726 - INFO - Epoch [22/100] Train Loss: 0.010052 Val Loss: 0.010261LR: 0.010000
+2026-08-28 19:21:38,763 - INFO - Epoch [23/100] Train Loss: 0.010052 Val Loss: 0.010288LR: 0.010000
+2026-08-28 19:21:38,804 - INFO - Epoch [24/100] Train Loss: 0.010051 Val Loss: 0.010275LR: 0.010000
+2026-08-28 19:21:38,839 - INFO - Epoch [25/100] Train Loss: 0.010052 Val Loss: 0.010256LR: 0.010000
+2026-08-28 19:21:38,884 - INFO - Epoch [26/100] Train Loss: 0.010059 Val Loss: 0.010255LR: 0.010000
+2026-08-28 19:21:38,920 - INFO - Epoch [27/100] Train Loss: 0.010050 Val Loss: 0.010242LR: 0.010000
+2026-08-28 19:21:38,958 - INFO - Epoch [28/100] Train Loss: 0.010048 Val Loss: 0.010255LR: 0.010000
+2026-08-28 19:21:38,995 - INFO - Epoch [29/100] Train Loss: 0.010052 Val Loss: 0.010236LR: 0.010000
+2026-08-28 19:21:39,037 - INFO - Epoch [30/100] Train Loss: 0.010053 Val Loss: 0.010257LR: 0.010000
+2026-08-28 19:21:39,073 - INFO - Epoch [31/100] Train Loss: 0.010050 Val Loss: 0.010235LR: 0.010000
+2026-08-28 19:21:39,115 - INFO - Epoch [32/100] Train Loss: 0.010051 Val Loss: 0.010246LR: 0.010000
+2026-08-28 19:21:39,156 - INFO - Epoch [33/100] Train Loss: 0.010050 Val Loss: 0.010233LR: 0.010000
+2026-08-28 19:21:39,195 - INFO - Epoch [34/100] Train Loss: 0.010049 Val Loss: 0.010252LR: 0.010000
+2026-08-28 19:21:39,239 - INFO - Epoch [35/100] Train Loss: 0.010053 Val Loss: 0.010265LR: 0.010000
+2026-08-28 19:21:39,277 - INFO - Epoch [36/100] Train Loss: 0.010051 Val Loss: 0.010238LR: 0.010000
+2026-08-28 19:21:39,319 - INFO - Epoch [37/100] Train Loss: 0.010055 Val Loss: 0.010247LR: 0.010000
+2026-08-28 19:21:39,361 - INFO - Epoch [38/100] Train Loss: 0.010052 Val Loss: 0.010249LR: 0.010000
+2026-08-28 19:21:39,396 - INFO - Epoch [39/100] Train Loss: 0.010054 Val Loss: 0.010256LR: 0.010000
+2026-08-28 19:21:39,436 - INFO - Epoch [40/100] Train Loss: 0.010056 Val Loss: 0.010245LR: 0.010000
+2026-08-28 19:21:39,475 - INFO - Epoch [41/100] Train Loss: 0.010051 Val Loss: 0.010264LR: 0.010000
+2026-08-28 19:21:39,623 - INFO - Epoch [42/100] Train Loss: 0.010055 Val Loss: 0.010265LR: 0.010000
+2026-08-28 19:21:39,669 - INFO - Epoch [43/100] Train Loss: 0.010049 Val Loss: 0.010271LR: 0.010000
+2026-08-28 19:21:39,709 - INFO - Epoch [44/100] Train Loss: 0.010056 Val Loss: 0.010256LR: 0.010000
+2026-08-28 19:21:39,751 - INFO - Epoch [45/100] Train Loss: 0.010054 Val Loss: 0.010238LR: 0.010000
+2026-08-28 19:21:39,793 - INFO - Epoch [46/100] Train Loss: 0.010059 Val Loss: 0.010236LR: 0.010000
+2026-08-28 19:21:39,835 - INFO - Epoch [47/100] Train Loss: 0.010050 Val Loss: 0.010252LR: 0.010000
+2026-08-28 19:21:39,879 - INFO - Epoch [48/100] Train Loss: 0.010057 Val Loss: 0.010253LR: 0.010000
+2026-08-28 19:21:39,916 - INFO - Epoch [49/100] Train Loss: 0.010051 Val Loss: 0.010252LR: 0.010000
+2026-08-28 19:21:39,959 - INFO - Epoch [50/100] Train Loss: 0.010054 Val Loss: 0.010258LR: 0.010000
+2026-08-28 19:21:39,996 - INFO - Epoch [51/100] Train Loss: 0.010052 Val Loss: 0.010269LR: 0.010000
+2026-08-28 19:21:40,039 - INFO - Epoch [52/100] Train Loss: 0.010057 Val Loss: 0.010272LR: 0.010000
+2026-08-28 19:21:40,075 - INFO - Epoch [53/100] Train Loss: 0.010065 Val Loss: 0.010281LR: 0.010000
+2026-08-28 19:21:40,113 - INFO - Epoch [54/100] Train Loss: 0.010050 Val Loss: 0.010270LR: 0.010000
+2026-08-28 19:21:40,154 - INFO - Epoch [55/100] Train Loss: 0.010050 Val Loss: 0.010255LR: 0.010000
+2026-08-28 19:21:40,275 - INFO - Epoch [56/100] Train Loss: 0.010049 Val Loss: 0.010254LR: 0.010000
+2026-08-28 19:21:40,334 - INFO - Epoch [57/100] Train Loss: 0.010056 Val Loss: 0.010244LR: 0.010000
+2026-08-28 19:21:40,385 - INFO - Epoch [58/100] Train Loss: 0.010056 Val Loss: 0.010240LR: 0.010000
+2026-08-28 19:21:40,431 - INFO - Epoch [59/100] Train Loss: 0.010059 Val Loss: 0.010251LR: 0.010000
+2026-08-28 19:21:40,471 - INFO - Epoch [60/100] Train Loss: 0.010052 Val Loss: 0.010251LR: 0.010000
+2026-08-28 19:21:40,515 - INFO - Epoch [61/100] Train Loss: 0.010044 Val Loss: 0.010263LR: 0.010000
+2026-08-28 19:21:40,560 - INFO - Epoch [62/100] Train Loss: 0.010055 Val Loss: 0.010259LR: 0.010000
+2026-08-28 19:21:40,601 - INFO - Epoch [63/100] Train Loss: 0.010055 Val Loss: 0.010255LR: 0.010000
+2026-08-28 19:21:40,675 - INFO - Epoch [64/100] Train Loss: 0.010052 Val Loss: 0.010250LR: 0.010000
+2026-08-28 19:21:40,721 - INFO - Epoch [65/100] Train Loss: 0.010047 Val Loss: 0.010254LR: 0.010000
+2026-08-28 19:21:40,764 - INFO - Epoch [66/100] Train Loss: 0.010058 Val Loss: 0.010260LR: 0.010000
+2026-08-28 19:21:40,814 - INFO - Epoch [67/100] Train Loss: 0.010050 Val Loss: 0.010257LR: 0.010000
+2026-08-28 19:21:40,857 - INFO - Epoch [68/100] Train Loss: 0.010051 Val Loss: 0.010253LR: 0.010000
+2026-08-28 19:21:40,894 - INFO - Epoch [69/100] Train Loss: 0.010055 Val Loss: 0.010252LR: 0.010000
+2026-08-28 19:21:40,938 - INFO - Epoch [70/100] Train Loss: 0.010058 Val Loss: 0.010247LR: 0.010000
+2026-08-28 19:21:40,976 - INFO - Epoch [71/100] Train Loss: 0.010057 Val Loss: 0.010256LR: 0.010000
+2026-08-28 19:21:41,022 - INFO - Epoch [72/100] Train Loss: 0.010057 Val Loss: 0.010272LR: 0.010000
+2026-08-28 19:21:41,065 - INFO - Epoch [73/100] Train Loss: 0.010056 Val Loss: 0.010262LR: 0.010000
+2026-08-28 19:21:41,107 - INFO - Epoch [74/100] Train Loss: 0.010055 Val Loss: 0.010260LR: 0.010000
+2026-08-28 19:21:41,346 - INFO - Epoch [75/100] Train Loss: 0.010047 Val Loss: 0.010278LR: 0.010000
+2026-08-28 19:21:41,391 - INFO - Epoch [76/100] Train Loss: 0.010060 Val Loss: 0.010267LR: 0.010000
+2026-08-28 19:21:41,432 - INFO - Epoch [77/100] Train Loss: 0.010057 Val Loss: 0.010248LR: 0.010000
+2026-08-28 19:21:41,471 - INFO - Epoch [78/100] Train Loss: 0.010049 Val Loss: 0.010263LR: 0.010000
+2026-08-28 19:21:41,512 - INFO - Epoch [79/100] Train Loss: 0.010047 Val Loss: 0.010257LR: 0.010000
+2026-08-28 19:21:41,651 - INFO - Epoch [80/100] Train Loss: 0.010056 Val Loss: 0.010274LR: 0.010000
+2026-08-28 19:21:41,689 - INFO - Epoch [81/100] Train Loss: 0.010052 Val Loss: 0.010275LR: 0.010000
+2026-08-28 19:21:41,724 - INFO - Epoch [82/100] Train Loss: 0.010057 Val Loss: 0.010280LR: 0.010000
+2026-08-28 19:21:41,761 - INFO - Epoch [83/100] Train Loss: 0.010054 Val Loss: 0.010268LR: 0.010000
+2026-08-28 19:21:41,802 - INFO - Epoch [84/100] Train Loss: 0.010054 Val Loss: 0.010256LR: 0.010000
+2026-08-28 19:21:41,842 - INFO - Epoch [85/100] Train Loss: 0.010052 Val Loss: 0.010262LR: 0.010000
+2026-08-28 19:21:41,876 - INFO - Epoch [86/100] Train Loss: 0.010051 Val Loss: 0.010268LR: 0.010000
+2026-08-28 19:21:41,916 - INFO - Epoch [87/100] Train Loss: 0.010050 Val Loss: 0.010286LR: 0.010000
+2026-08-28 19:21:41,957 - INFO - Epoch [88/100] Train Loss: 0.010051 Val Loss: 0.010288LR: 0.010000
+2026-08-28 19:21:41,997 - INFO - Epoch [89/100] Train Loss: 0.010055 Val Loss: 0.010277LR: 0.010000
+2026-08-28 19:21:42,039 - INFO - Epoch [90/100] Train Loss: 0.010051 Val Loss: 0.010269LR: 0.010000
+2026-08-28 19:21:42,078 - INFO - Epoch [91/100] Train Loss: 0.010047 Val Loss: 0.010283LR: 0.010000
+2026-08-28 19:21:42,126 - INFO - Epoch [92/100] Train Loss: 0.010053 Val Loss: 0.010274LR: 0.010000
+2026-08-28 19:21:42,166 - INFO - Epoch [93/100] Train Loss: 0.010049 Val Loss: 0.010266LR: 0.010000
+2026-08-28 19:21:42,204 - INFO - Epoch [94/100] Train Loss: 0.010052 Val Loss: 0.010267LR: 0.010000
+2026-08-28 19:21:42,256 - INFO - Epoch [95/100] Train Loss: 0.010058 Val Loss: 0.010261LR: 0.010000
+2026-08-28 19:21:42,299 - INFO - Epoch [96/100] Train Loss: 0.010049 Val Loss: 0.010259LR: 0.010000
+2026-08-28 19:21:42,339 - INFO - Epoch [97/100] Train Loss: 0.010054 Val Loss: 0.010282LR: 0.010000
+2026-08-28 19:21:42,379 - INFO - Epoch [98/100] Train Loss: 0.010051 Val Loss: 0.010280LR: 0.010000
+2026-08-28 19:21:42,413 - INFO - Epoch [99/100] Train Loss: 0.010047 Val Loss: 0.010255LR: 0.010000
+2026-08-28 19:21:42,457 - INFO - Epoch [100/100] Train Loss: 0.010053 Val Loss: 0.010247LR: 0.010000
+2026-08-28 19:21:42,481 - INFO - ===== Training Finished =====
+2026-08-28 19:21:42,482 - INFO - Best Val Loss: 0.010233
+2026-08-30 19:20:19,920 - INFO - ===== Training Started =====
+2026-08-30 19:20:19,924 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}, 'output': {'dir': 'outputs'}}
+2026-08-30 19:20:19,952 - INFO - Epoch [1/100] Train Loss: 3.992978 Val Loss: 2.710952LR: 0.010000
+2026-08-30 19:20:20,053 - INFO - Epoch [2/100] Train Loss: 1.554725 Val Loss: 1.049293LR: 0.010000
+2026-08-30 19:20:20,108 - INFO - Epoch [3/100] Train Loss: 0.609239 Val Loss: 0.408984LR: 0.010000
+2026-08-30 19:20:20,289 - INFO - Epoch [4/100] Train Loss: 0.242869 Val Loss: 0.162983LR: 0.010000
+2026-08-30 19:20:20,347 - INFO - Epoch [5/100] Train Loss: 0.100692 Val Loss: 0.068479LR: 0.010000
+2026-08-30 19:20:20,408 - INFO - Epoch [6/100] Train Loss: 0.045386 Val Loss: 0.032156LR: 0.010000
+2026-08-30 19:20:20,475 - INFO - Epoch [7/100] Train Loss: 0.023771 Val Loss: 0.018380LR: 0.010000
+2026-08-30 19:20:20,539 - INFO - Epoch [8/100] Train Loss: 0.015405 Val Loss: 0.013248LR: 0.010000
+2026-08-30 19:20:20,599 - INFO - Epoch [9/100] Train Loss: 0.012172 Val Loss: 0.011328LR: 0.010000
+2026-08-30 19:20:20,652 - INFO - Epoch [10/100] Train Loss: 0.010887 Val Loss: 0.010608LR: 0.010000
+2026-08-30 19:20:20,702 - INFO - Epoch [11/100] Train Loss: 0.010380 Val Loss: 0.010354LR: 0.010000
+2026-08-30 19:20:20,753 - INFO - Epoch [12/100] Train Loss: 0.010172 Val Loss: 0.010272LR: 0.010000
+2026-08-30 19:20:20,808 - INFO - Epoch [13/100] Train Loss: 0.010102 Val Loss: 0.010236LR: 0.010000
+2026-08-30 19:20:20,860 - INFO - Epoch [14/100] Train Loss: 0.010066 Val Loss: 0.010244LR: 0.010000
+2026-08-30 19:20:20,890 - INFO - Epoch [15/100] Train Loss: 0.010061 Val Loss: 0.010254LR: 0.010000
+2026-08-30 19:20:20,918 - INFO - Epoch [16/100] Train Loss: 0.010053 Val Loss: 0.010240LR: 0.010000
+2026-08-30 19:20:20,949 - INFO - Epoch [17/100] Train Loss: 0.010053 Val Loss: 0.010257LR: 0.010000
+2026-08-30 19:20:20,982 - INFO - Epoch [18/100] Train Loss: 0.010054 Val Loss: 0.010233LR: 0.010000
+2026-08-30 19:20:21,038 - INFO - Epoch [19/100] Train Loss: 0.010057 Val Loss: 0.010263LR: 0.010000
+2026-08-30 19:20:21,066 - INFO - Epoch [20/100] Train Loss: 0.010053 Val Loss: 0.010266LR: 0.010000
+2026-08-30 19:20:21,095 - INFO - Epoch [21/100] Train Loss: 0.010053 Val Loss: 0.010258LR: 0.010000
+2026-08-30 19:20:21,128 - INFO - Epoch [22/100] Train Loss: 0.010052 Val Loss: 0.010261LR: 0.010000
+2026-08-30 19:20:21,157 - INFO - Epoch [23/100] Train Loss: 0.010052 Val Loss: 0.010288LR: 0.010000
+2026-08-30 19:20:21,190 - INFO - Epoch [24/100] Train Loss: 0.010051 Val Loss: 0.010275LR: 0.010000
+2026-08-30 19:20:21,220 - INFO - Epoch [25/100] Train Loss: 0.010052 Val Loss: 0.010256LR: 0.010000
+2026-08-30 19:20:21,247 - INFO - Epoch [26/100] Train Loss: 0.010059 Val Loss: 0.010255LR: 0.010000
+2026-08-30 19:20:21,279 - INFO - Epoch [27/100] Train Loss: 0.010050 Val Loss: 0.010242LR: 0.010000
+2026-08-30 19:20:21,310 - INFO - Epoch [28/100] Train Loss: 0.010048 Val Loss: 0.010255LR: 0.010000
+2026-08-30 19:20:21,340 - INFO - Epoch [29/100] Train Loss: 0.010052 Val Loss: 0.010236LR: 0.010000
+2026-08-30 19:20:21,498 - INFO - Epoch [30/100] Train Loss: 0.010053 Val Loss: 0.010257LR: 0.010000
+2026-08-30 19:20:21,532 - INFO - Epoch [31/100] Train Loss: 0.010050 Val Loss: 0.010235LR: 0.010000
+2026-08-30 19:20:21,564 - INFO - Epoch [32/100] Train Loss: 0.010051 Val Loss: 0.010246LR: 0.010000
+2026-08-30 19:20:21,590 - INFO - Epoch [33/100] Train Loss: 0.010050 Val Loss: 0.010233LR: 0.010000
+2026-08-30 19:20:21,629 - INFO - Epoch [34/100] Train Loss: 0.010049 Val Loss: 0.010252LR: 0.010000
+2026-08-30 19:20:21,665 - INFO - Epoch [35/100] Train Loss: 0.010053 Val Loss: 0.010265LR: 0.010000
+2026-08-30 19:20:21,694 - INFO - Epoch [36/100] Train Loss: 0.010051 Val Loss: 0.010238LR: 0.010000
+2026-08-30 19:20:21,733 - INFO - Epoch [37/100] Train Loss: 0.010055 Val Loss: 0.010247LR: 0.010000
+2026-08-30 19:20:21,764 - INFO - Epoch [38/100] Train Loss: 0.010052 Val Loss: 0.010249LR: 0.010000
+2026-08-30 19:20:21,800 - INFO - Epoch [39/100] Train Loss: 0.010054 Val Loss: 0.010256LR: 0.010000
+2026-08-30 19:20:21,831 - INFO - Epoch [40/100] Train Loss: 0.010056 Val Loss: 0.010245LR: 0.010000
+2026-08-30 19:20:21,865 - INFO - Epoch [41/100] Train Loss: 0.010051 Val Loss: 0.010264LR: 0.010000
+2026-08-30 19:20:21,893 - INFO - Epoch [42/100] Train Loss: 0.010055 Val Loss: 0.010265LR: 0.010000
+2026-08-30 19:20:21,928 - INFO - Epoch [43/100] Train Loss: 0.010049 Val Loss: 0.010271LR: 0.010000
+2026-08-30 19:20:21,969 - INFO - Epoch [44/100] Train Loss: 0.010056 Val Loss: 0.010256LR: 0.010000
+2026-08-30 19:20:22,002 - INFO - Epoch [45/100] Train Loss: 0.010054 Val Loss: 0.010238LR: 0.010000
+2026-08-30 19:20:22,032 - INFO - Epoch [46/100] Train Loss: 0.010059 Val Loss: 0.010236LR: 0.010000
+2026-08-30 19:20:22,069 - INFO - Epoch [47/100] Train Loss: 0.010050 Val Loss: 0.010252LR: 0.010000
+2026-08-30 19:20:22,101 - INFO - Epoch [48/100] Train Loss: 0.010057 Val Loss: 0.010253LR: 0.010000
+2026-08-30 19:20:22,136 - INFO - Epoch [49/100] Train Loss: 0.010051 Val Loss: 0.010252LR: 0.010000
+2026-08-30 19:20:22,175 - INFO - Epoch [50/100] Train Loss: 0.010054 Val Loss: 0.010258LR: 0.010000
+2026-08-30 19:20:22,212 - INFO - Epoch [51/100] Train Loss: 0.010052 Val Loss: 0.010269LR: 0.010000
+2026-08-30 19:20:22,243 - INFO - Epoch [52/100] Train Loss: 0.010057 Val Loss: 0.010272LR: 0.010000
+2026-08-30 19:20:22,271 - INFO - Epoch [53/100] Train Loss: 0.010065 Val Loss: 0.010281LR: 0.010000
+2026-08-30 19:20:22,314 - INFO - Epoch [54/100] Train Loss: 0.010050 Val Loss: 0.010270LR: 0.010000
+2026-08-30 19:20:22,357 - INFO - Epoch [55/100] Train Loss: 0.010050 Val Loss: 0.010255LR: 0.010000
+2026-08-30 19:20:22,392 - INFO - Epoch [56/100] Train Loss: 0.010049 Val Loss: 0.010254LR: 0.010000
+2026-08-30 19:20:22,423 - INFO - Epoch [57/100] Train Loss: 0.010056 Val Loss: 0.010244LR: 0.010000
+2026-08-30 19:20:22,453 - INFO - Epoch [58/100] Train Loss: 0.010056 Val Loss: 0.010240LR: 0.010000
+2026-08-30 19:20:22,479 - INFO - Epoch [59/100] Train Loss: 0.010059 Val Loss: 0.010251LR: 0.010000
+2026-08-30 19:20:22,508 - INFO - Epoch [60/100] Train Loss: 0.010052 Val Loss: 0.010251LR: 0.010000
+2026-08-30 19:20:22,537 - INFO - Epoch [61/100] Train Loss: 0.010044 Val Loss: 0.010263LR: 0.010000
+2026-08-30 19:20:22,570 - INFO - Epoch [62/100] Train Loss: 0.010055 Val Loss: 0.010259LR: 0.010000
+2026-08-30 19:20:22,601 - INFO - Epoch [63/100] Train Loss: 0.010055 Val Loss: 0.010255LR: 0.010000
+2026-08-30 19:20:22,630 - INFO - Epoch [64/100] Train Loss: 0.010052 Val Loss: 0.010250LR: 0.010000
+2026-08-30 19:20:22,670 - INFO - Epoch [65/100] Train Loss: 0.010047 Val Loss: 0.010254LR: 0.010000
+2026-08-30 19:20:22,705 - INFO - Epoch [66/100] Train Loss: 0.010058 Val Loss: 0.010260LR: 0.010000
+2026-08-30 19:20:22,741 - INFO - Epoch [67/100] Train Loss: 0.010050 Val Loss: 0.010257LR: 0.010000
+2026-08-30 19:20:22,899 - INFO - Epoch [68/100] Train Loss: 0.010051 Val Loss: 0.010253LR: 0.010000
+2026-08-30 19:20:22,930 - INFO - Epoch [69/100] Train Loss: 0.010055 Val Loss: 0.010252LR: 0.010000
+2026-08-30 19:20:22,957 - INFO - Epoch [70/100] Train Loss: 0.010058 Val Loss: 0.010247LR: 0.010000
+2026-08-30 19:20:22,996 - INFO - Epoch [71/100] Train Loss: 0.010057 Val Loss: 0.010256LR: 0.010000
+2026-08-30 19:20:23,033 - INFO - Epoch [72/100] Train Loss: 0.010057 Val Loss: 0.010272LR: 0.010000
+2026-08-30 19:20:23,065 - INFO - Epoch [73/100] Train Loss: 0.010056 Val Loss: 0.010262LR: 0.010000
+2026-08-30 19:20:23,097 - INFO - Epoch [74/100] Train Loss: 0.010055 Val Loss: 0.010260LR: 0.010000
+2026-08-30 19:20:23,135 - INFO - Epoch [75/100] Train Loss: 0.010047 Val Loss: 0.010278LR: 0.010000
+2026-08-30 19:20:23,173 - INFO - Epoch [76/100] Train Loss: 0.010060 Val Loss: 0.010267LR: 0.010000
+2026-08-30 19:20:23,205 - INFO - Epoch [77/100] Train Loss: 0.010057 Val Loss: 0.010248LR: 0.010000
+2026-08-30 19:20:23,249 - INFO - Epoch [78/100] Train Loss: 0.010049 Val Loss: 0.010263LR: 0.010000
+2026-08-30 19:20:23,286 - INFO - Epoch [79/100] Train Loss: 0.010047 Val Loss: 0.010257LR: 0.010000
+2026-08-30 19:20:23,323 - INFO - Epoch [80/100] Train Loss: 0.010056 Val Loss: 0.010274LR: 0.010000
+2026-08-30 19:20:23,357 - INFO - Epoch [81/100] Train Loss: 0.010052 Val Loss: 0.010275LR: 0.010000
+2026-08-30 19:20:23,390 - INFO - Epoch [82/100] Train Loss: 0.010057 Val Loss: 0.010280LR: 0.010000
+2026-08-30 19:20:23,429 - INFO - Epoch [83/100] Train Loss: 0.010054 Val Loss: 0.010268LR: 0.010000
+2026-08-30 19:20:23,463 - INFO - Epoch [84/100] Train Loss: 0.010054 Val Loss: 0.010256LR: 0.010000
+2026-08-30 19:20:23,505 - INFO - Epoch [85/100] Train Loss: 0.010052 Val Loss: 0.010262LR: 0.010000
+2026-08-30 19:20:23,539 - INFO - Epoch [86/100] Train Loss: 0.010051 Val Loss: 0.010268LR: 0.010000
+2026-08-30 19:20:23,568 - INFO - Epoch [87/100] Train Loss: 0.010050 Val Loss: 0.010286LR: 0.010000
+2026-08-30 19:20:23,602 - INFO - Epoch [88/100] Train Loss: 0.010051 Val Loss: 0.010288LR: 0.010000
+2026-08-30 19:20:23,636 - INFO - Epoch [89/100] Train Loss: 0.010055 Val Loss: 0.010277LR: 0.010000
+2026-08-30 19:20:23,668 - INFO - Epoch [90/100] Train Loss: 0.010051 Val Loss: 0.010269LR: 0.010000
+2026-08-30 19:20:23,707 - INFO - Epoch [91/100] Train Loss: 0.010047 Val Loss: 0.010283LR: 0.010000
+2026-08-30 19:20:23,750 - INFO - Epoch [92/100] Train Loss: 0.010053 Val Loss: 0.010274LR: 0.010000
+2026-08-30 19:20:23,790 - INFO - Epoch [93/100] Train Loss: 0.010049 Val Loss: 0.010266LR: 0.010000
+2026-08-30 19:20:23,823 - INFO - Epoch [94/100] Train Loss: 0.010052 Val Loss: 0.010267LR: 0.010000
+2026-08-30 19:20:23,859 - INFO - Epoch [95/100] Train Loss: 0.010058 Val Loss: 0.010261LR: 0.010000
+2026-08-30 19:20:23,894 - INFO - Epoch [96/100] Train Loss: 0.010049 Val Loss: 0.010259LR: 0.010000
+2026-08-30 19:20:23,924 - INFO - Epoch [97/100] Train Loss: 0.010054 Val Loss: 0.010282LR: 0.010000
+2026-08-30 19:20:23,953 - INFO - Epoch [98/100] Train Loss: 0.010051 Val Loss: 0.010280LR: 0.010000
+2026-08-30 19:20:23,985 - INFO - Epoch [99/100] Train Loss: 0.010047 Val Loss: 0.010255LR: 0.010000
+2026-08-30 19:20:24,245 - INFO - Epoch [100/100] Train Loss: 0.010053 Val Loss: 0.010247LR: 0.010000
+2026-08-30 19:20:24,267 - INFO - ===== Training Finished =====
+2026-08-30 19:20:24,268 - INFO - Best Val Loss: 0.010233
+2026-08-30 19:20:24,357 - INFO - Training history saved to: outputs/history.json
+2026-08-30 19:41:50,186 - INFO - Using device: cpu
+2026-08-30 19:41:51,686 - INFO - ===== Training Started =====
+2026-08-30 19:41:51,686 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 100, 'batch_size': 32, 'lr': 0.01, 'device': 'auto'}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}, 'output': {'dir': 'outputs'}}
+2026-08-30 19:41:51,696 - INFO - Epoch [1/100] Train Loss: 3.992978 Val Loss: 2.710952 LR: 0.010000
+2026-08-30 19:41:51,747 - INFO - Epoch [2/100] Train Loss: 1.554725 Val Loss: 1.049293 LR: 0.010000
+2026-08-30 19:41:51,787 - INFO - Epoch [3/100] Train Loss: 0.609239 Val Loss: 0.408984 LR: 0.010000
+2026-08-30 19:41:51,848 - INFO - Epoch [4/100] Train Loss: 0.242869 Val Loss: 0.162983 LR: 0.010000
+2026-08-30 19:41:51,888 - INFO - Epoch [5/100] Train Loss: 0.100692 Val Loss: 0.068479 LR: 0.010000
+2026-08-30 19:41:51,925 - INFO - Epoch [6/100] Train Loss: 0.045386 Val Loss: 0.032156 LR: 0.010000
+2026-08-30 19:41:50,592 - INFO - Epoch [7/100] Train Loss: 0.023771 Val Loss: 0.018380 LR: 0.010000
+2026-08-30 19:41:50,643 - INFO - Epoch [8/100] Train Loss: 0.015405 Val Loss: 0.013248 LR: 0.010000
+2026-08-30 19:41:50,683 - INFO - Epoch [9/100] Train Loss: 0.012172 Val Loss: 0.011328 LR: 0.010000
+2026-08-30 19:41:50,717 - INFO - Epoch [10/100] Train Loss: 0.010887 Val Loss: 0.010608 LR: 0.010000
+2026-08-30 19:41:50,753 - INFO - Epoch [11/100] Train Loss: 0.010380 Val Loss: 0.010354 LR: 0.010000
+2026-08-30 19:41:50,789 - INFO - Epoch [12/100] Train Loss: 0.010172 Val Loss: 0.010272 LR: 0.010000
+2026-08-30 19:41:50,965 - INFO - Epoch [13/100] Train Loss: 0.010102 Val Loss: 0.010236 LR: 0.010000
+2026-08-30 19:41:51,001 - INFO - Epoch [14/100] Train Loss: 0.010066 Val Loss: 0.010244 LR: 0.010000
+2026-08-30 19:41:51,025 - INFO - Epoch [15/100] Train Loss: 0.010061 Val Loss: 0.010254 LR: 0.010000
+2026-08-30 19:41:51,053 - INFO - Epoch [16/100] Train Loss: 0.010053 Val Loss: 0.010240 LR: 0.010000
+2026-08-30 19:41:51,075 - INFO - Epoch [17/100] Train Loss: 0.010053 Val Loss: 0.010257 LR: 0.010000
+2026-08-30 19:41:51,095 - INFO - Epoch [18/100] Train Loss: 0.010054 Val Loss: 0.010233 LR: 0.010000
+2026-08-30 19:41:51,128 - INFO - Epoch [19/100] Train Loss: 0.010057 Val Loss: 0.010263 LR: 0.010000
+2026-08-30 19:41:51,151 - INFO - Epoch [20/100] Train Loss: 0.010053 Val Loss: 0.010266 LR: 0.010000
+2026-08-30 19:41:51,386 - INFO - Epoch [21/100] Train Loss: 0.010053 Val Loss: 0.010258 LR: 0.010000
+2026-08-30 19:41:51,410 - INFO - Epoch [22/100] Train Loss: 0.010052 Val Loss: 0.010261 LR: 0.010000
+2026-08-30 19:41:51,434 - INFO - Epoch [23/100] Train Loss: 0.010052 Val Loss: 0.010288 LR: 0.010000
+2026-08-30 19:41:51,452 - INFO - Epoch [24/100] Train Loss: 0.010051 Val Loss: 0.010275 LR: 0.010000
+2026-08-30 19:41:51,474 - INFO - Epoch [25/100] Train Loss: 0.010052 Val Loss: 0.010256 LR: 0.010000
+2026-08-30 19:41:51,503 - INFO - Epoch [26/100] Train Loss: 0.010059 Val Loss: 0.010255 LR: 0.010000
+2026-08-30 19:41:51,524 - INFO - Epoch [27/100] Train Loss: 0.010050 Val Loss: 0.010242 LR: 0.010000
+2026-08-30 19:41:51,556 - INFO - Epoch [28/100] Train Loss: 0.010048 Val Loss: 0.010255 LR: 0.010000
+2026-08-30 19:41:51,579 - INFO - Epoch [29/100] Train Loss: 0.010052 Val Loss: 0.010236 LR: 0.010000
+2026-08-30 19:41:51,603 - INFO - Epoch [30/100] Train Loss: 0.010053 Val Loss: 0.010257 LR: 0.010000
+2026-08-30 19:41:51,626 - INFO - Epoch [31/100] Train Loss: 0.010050 Val Loss: 0.010235 LR: 0.010000
+2026-08-30 19:41:51,651 - INFO - Epoch [32/100] Train Loss: 0.010051 Val Loss: 0.010246 LR: 0.010000
+2026-08-30 19:41:51,683 - INFO - Epoch [33/100] Train Loss: 0.010050 Val Loss: 0.010233 LR: 0.010000
+2026-08-30 19:41:51,706 - INFO - Epoch [34/100] Train Loss: 0.010049 Val Loss: 0.010252 LR: 0.010000
+2026-08-30 19:41:51,728 - INFO - Epoch [35/100] Train Loss: 0.010053 Val Loss: 0.010265 LR: 0.010000
+2026-08-30 19:41:51,751 - INFO - Epoch [36/100] Train Loss: 0.010051 Val Loss: 0.010238 LR: 0.010000
+2026-08-30 19:41:51,774 - INFO - Epoch [37/100] Train Loss: 0.010055 Val Loss: 0.010247 LR: 0.010000
+2026-08-30 19:41:51,796 - INFO - Epoch [38/100] Train Loss: 0.010052 Val Loss: 0.010249 LR: 0.010000
+2026-08-30 19:41:51,819 - INFO - Epoch [39/100] Train Loss: 0.010054 Val Loss: 0.010256 LR: 0.010000
+2026-08-30 19:41:51,841 - INFO - Epoch [40/100] Train Loss: 0.010056 Val Loss: 0.010245 LR: 0.010000
+2026-08-30 19:41:51,879 - INFO - Epoch [41/100] Train Loss: 0.010051 Val Loss: 0.010264 LR: 0.010000
+2026-08-30 19:41:51,902 - INFO - Epoch [42/100] Train Loss: 0.010055 Val Loss: 0.010265 LR: 0.010000
+2026-08-30 19:41:51,927 - INFO - Epoch [43/100] Train Loss: 0.010049 Val Loss: 0.010271 LR: 0.010000
+2026-08-30 19:41:51,951 - INFO - Epoch [44/100] Train Loss: 0.010056 Val Loss: 0.010256 LR: 0.010000
+2026-08-30 19:41:51,975 - INFO - Epoch [45/100] Train Loss: 0.010054 Val Loss: 0.010238 LR: 0.010000
+2026-08-30 19:41:51,994 - INFO - Epoch [46/100] Train Loss: 0.010059 Val Loss: 0.010236 LR: 0.010000
+2026-08-30 19:41:52,017 - INFO - Epoch [47/100] Train Loss: 0.010050 Val Loss: 0.010252 LR: 0.010000
+2026-08-30 19:41:52,163 - INFO - Epoch [48/100] Train Loss: 0.010057 Val Loss: 0.010253 LR: 0.010000
+2026-08-30 19:41:52,186 - INFO - Epoch [49/100] Train Loss: 0.010051 Val Loss: 0.010252 LR: 0.010000
+2026-08-30 19:41:52,207 - INFO - Epoch [50/100] Train Loss: 0.010054 Val Loss: 0.010258 LR: 0.010000
+2026-08-30 19:41:52,230 - INFO - Epoch [51/100] Train Loss: 0.010052 Val Loss: 0.010269 LR: 0.010000
+2026-08-30 19:41:52,251 - INFO - Epoch [52/100] Train Loss: 0.010057 Val Loss: 0.010272 LR: 0.010000
+2026-08-30 19:41:52,273 - INFO - Epoch [53/100] Train Loss: 0.010065 Val Loss: 0.010281 LR: 0.010000
+2026-08-30 19:41:52,294 - INFO - Epoch [54/100] Train Loss: 0.010050 Val Loss: 0.010270 LR: 0.010000
+2026-08-30 19:41:52,315 - INFO - Epoch [55/100] Train Loss: 0.010050 Val Loss: 0.010255 LR: 0.010000
+2026-08-30 19:41:52,337 - INFO - Epoch [56/100] Train Loss: 0.010049 Val Loss: 0.010254 LR: 0.010000
+2026-08-30 19:41:52,357 - INFO - Epoch [57/100] Train Loss: 0.010056 Val Loss: 0.010244 LR: 0.010000
+2026-08-30 19:41:52,378 - INFO - Epoch [58/100] Train Loss: 0.010056 Val Loss: 0.010240 LR: 0.010000
+2026-08-30 19:41:52,398 - INFO - Epoch [59/100] Train Loss: 0.010059 Val Loss: 0.010251 LR: 0.010000
+2026-08-30 19:41:52,420 - INFO - Epoch [60/100] Train Loss: 0.010052 Val Loss: 0.010251 LR: 0.010000
+2026-08-30 19:41:52,451 - INFO - Epoch [61/100] Train Loss: 0.010044 Val Loss: 0.010263 LR: 0.010000
+2026-08-30 19:41:52,473 - INFO - Epoch [62/100] Train Loss: 0.010055 Val Loss: 0.010259 LR: 0.010000
+2026-08-30 19:41:52,493 - INFO - Epoch [63/100] Train Loss: 0.010055 Val Loss: 0.010255 LR: 0.010000
+2026-08-30 19:41:52,516 - INFO - Epoch [64/100] Train Loss: 0.010052 Val Loss: 0.010250 LR: 0.010000
+2026-08-30 19:41:52,536 - INFO - Epoch [65/100] Train Loss: 0.010047 Val Loss: 0.010254 LR: 0.010000
+2026-08-30 19:41:52,558 - INFO - Epoch [66/100] Train Loss: 0.010058 Val Loss: 0.010260 LR: 0.010000
+2026-08-30 19:41:52,578 - INFO - Epoch [67/100] Train Loss: 0.010050 Val Loss: 0.010257 LR: 0.010000
+2026-08-30 19:41:52,613 - INFO - Epoch [68/100] Train Loss: 0.010051 Val Loss: 0.010253 LR: 0.010000
+2026-08-30 19:41:52,635 - INFO - Epoch [69/100] Train Loss: 0.010055 Val Loss: 0.010252 LR: 0.010000
+2026-08-30 19:41:52,655 - INFO - Epoch [70/100] Train Loss: 0.010058 Val Loss: 0.010247 LR: 0.010000
+2026-08-30 19:41:52,677 - INFO - Epoch [71/100] Train Loss: 0.010057 Val Loss: 0.010256 LR: 0.010000
+2026-08-30 19:41:52,698 - INFO - Epoch [72/100] Train Loss: 0.010057 Val Loss: 0.010272 LR: 0.010000
+2026-08-30 19:41:52,725 - INFO - Epoch [73/100] Train Loss: 0.010056 Val Loss: 0.010262 LR: 0.010000
+2026-08-30 19:41:52,746 - INFO - Epoch [74/100] Train Loss: 0.010055 Val Loss: 0.010260 LR: 0.010000
+2026-08-30 19:41:52,766 - INFO - Epoch [75/100] Train Loss: 0.010047 Val Loss: 0.010278 LR: 0.010000
+2026-08-30 19:41:52,788 - INFO - Epoch [76/100] Train Loss: 0.010060 Val Loss: 0.010267 LR: 0.010000
+2026-08-30 19:41:52,816 - INFO - Epoch [77/100] Train Loss: 0.010057 Val Loss: 0.010248 LR: 0.010000
+2026-08-30 19:41:52,849 - INFO - Epoch [78/100] Train Loss: 0.010049 Val Loss: 0.010263 LR: 0.010000
+2026-08-30 19:41:52,871 - INFO - Epoch [79/100] Train Loss: 0.010047 Val Loss: 0.010257 LR: 0.010000
+2026-08-30 19:41:52,890 - INFO - Epoch [80/100] Train Loss: 0.010056 Val Loss: 0.010274 LR: 0.010000
+2026-08-30 19:41:52,910 - INFO - Epoch [81/100] Train Loss: 0.010052 Val Loss: 0.010275 LR: 0.010000
+2026-08-30 19:41:52,932 - INFO - Epoch [82/100] Train Loss: 0.010057 Val Loss: 0.010280 LR: 0.010000
+2026-08-30 19:41:52,953 - INFO - Epoch [83/100] Train Loss: 0.010054 Val Loss: 0.010268 LR: 0.010000
+2026-08-30 19:41:52,976 - INFO - Epoch [84/100] Train Loss: 0.010054 Val Loss: 0.010256 LR: 0.010000
+2026-08-30 19:41:52,997 - INFO - Epoch [85/100] Train Loss: 0.010052 Val Loss: 0.010262 LR: 0.010000
+2026-08-30 19:41:53,034 - INFO - Epoch [86/100] Train Loss: 0.010051 Val Loss: 0.010268 LR: 0.010000
+2026-08-30 19:41:53,174 - INFO - Epoch [87/100] Train Loss: 0.010050 Val Loss: 0.010286 LR: 0.010000
+2026-08-30 19:41:53,199 - INFO - Epoch [88/100] Train Loss: 0.010051 Val Loss: 0.010288 LR: 0.010000
+2026-08-30 19:41:53,221 - INFO - Epoch [89/100] Train Loss: 0.010055 Val Loss: 0.010277 LR: 0.010000
+2026-08-30 19:41:53,259 - INFO - Epoch [90/100] Train Loss: 0.010051 Val Loss: 0.010269 LR: 0.010000
+2026-08-30 19:41:53,280 - INFO - Epoch [91/100] Train Loss: 0.010047 Val Loss: 0.010283 LR: 0.010000
+2026-08-30 19:41:53,300 - INFO - Epoch [92/100] Train Loss: 0.010053 Val Loss: 0.010274 LR: 0.010000
+2026-08-30 19:41:53,322 - INFO - Epoch [93/100] Train Loss: 0.010049 Val Loss: 0.010266 LR: 0.010000
+2026-08-30 19:41:53,342 - INFO - Epoch [94/100] Train Loss: 0.010052 Val Loss: 0.010267 LR: 0.010000
+2026-08-30 19:41:53,363 - INFO - Epoch [95/100] Train Loss: 0.010058 Val Loss: 0.010261 LR: 0.010000
+2026-08-30 19:41:53,392 - INFO - Epoch [96/100] Train Loss: 0.010049 Val Loss: 0.010259 LR: 0.010000
+2026-08-30 19:41:53,414 - INFO - Epoch [97/100] Train Loss: 0.010054 Val Loss: 0.010282 LR: 0.010000
+2026-08-30 19:41:53,434 - INFO - Epoch [98/100] Train Loss: 0.010051 Val Loss: 0.010280 LR: 0.010000
+2026-08-30 19:41:53,456 - INFO - Epoch [99/100] Train Loss: 0.010047 Val Loss: 0.010255 LR: 0.010000
+2026-08-30 19:41:53,476 - INFO - Epoch [100/100] Train Loss: 0.010053 Val Loss: 0.010247 LR: 0.010000
+2026-08-30 19:41:53,493 - INFO - ===== Training Finished =====
+2026-08-30 19:41:53,493 - INFO - Best Val Loss: 0.010233
+2026-08-30 19:41:53,540 - INFO - Training history saved to: outputs/history.json
+2026-08-30 19:41:53,738 - INFO - Loss curve saved to: outputs/figures/loss_curve.png
