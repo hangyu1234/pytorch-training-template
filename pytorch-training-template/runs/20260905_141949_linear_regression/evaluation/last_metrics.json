@@ -1,0 +1,9 @@
+{
+    "split": "validation",
+    "checkpoint": "checkpoints/last.pt",
+    "epoch": 16,
+    "best_val_loss_so_far": 0.010232329302068268,
+    "metrics": {
+        "mse": 0.010252133078340973
+    }
+}

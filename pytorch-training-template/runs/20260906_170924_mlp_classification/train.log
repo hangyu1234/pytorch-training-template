@@ -1,0 +1,31 @@
+2026-09-06 17:09:25,002 - INFO - Task type: classification
+2026-09-06 17:09:25,045 - INFO - Run directory: runs/20260906_170924_mlp_classification
+2026-09-06 17:09:25,046 - INFO - Config snapshot saved to: runs/20260906_170924_mlp_classification/config.yaml
+2026-09-06 17:09:25,072 - INFO - Using device: cpu
+2026-09-06 17:09:26,064 - INFO - Selection metric: val_loss (min)
+2026-09-06 17:09:26,067 - INFO - ===== Training Started =====
+2026-09-06 17:09:26,069 - INFO - Config: {'seed': 42, 'task': {'type': 'classification'}, 'experiment': {'name': 'mlp_classification', 'runs_dir': 'runs'}, 'data': {'num_samples': 1000, 'num_features': 4, 'num_classes': 3, 'noise_std': 0.8, 'val_ratio': 0.2}, 'model': {'input_dim': 4, 'hidden_dim': 16, 'num_classes': 3}, 'training': {'epochs': 20, 'batch_size': 32, 'lr': 0.05, 'device': 'auto'}, 'resume': {'enabled': False, 'path': None}, 'selection': {'metric': 'val_loss', 'mode': 'min'}}
+2026-09-06 17:09:26,562 - INFO - Epoch [1/20] Train Loss: 0.696037 Train Acc: 0.6913 Val Loss: 0.511156 Val Acc: 0.7900 LR: 0.050000
+2026-09-06 17:09:27,165 - INFO - Epoch [2/20] Train Loss: 0.475942 Train Acc: 0.8013 Val Loss: 0.404395 Val Acc: 0.8650 LR: 0.050000
+2026-09-06 17:09:27,874 - INFO - Epoch [3/20] Train Loss: 0.394946 Train Acc: 0.8475 Val Loss: 0.343280 Val Acc: 0.9150 LR: 0.050000
+2026-09-06 17:09:28,480 - INFO - Epoch [4/20] Train Loss: 0.344748 Train Acc: 0.8838 Val Loss: 0.299693 Val Acc: 0.9350 LR: 0.050000
+2026-09-06 17:09:29,156 - INFO - Epoch [5/20] Train Loss: 0.309143 Train Acc: 0.9000 Val Loss: 0.269149 Val Acc: 0.9450 LR: 0.050000
+2026-09-06 17:09:29,732 - INFO - Epoch [6/20] Train Loss: 0.282421 Train Acc: 0.9125 Val Loss: 0.248796 Val Acc: 0.9400 LR: 0.050000
+2026-09-06 17:09:30,309 - INFO - Epoch [7/20] Train Loss: 0.262507 Train Acc: 0.9150 Val Loss: 0.231603 Val Acc: 0.9450 LR: 0.050000
+2026-09-06 17:09:30,913 - INFO - Epoch [8/20] Train Loss: 0.246390 Train Acc: 0.9225 Val Loss: 0.218351 Val Acc: 0.9450 LR: 0.050000
+2026-09-06 17:09:31,520 - INFO - Epoch [9/20] Train Loss: 0.233497 Train Acc: 0.9213 Val Loss: 0.205173 Val Acc: 0.9450 LR: 0.050000
+2026-09-06 17:09:32,178 - INFO - Epoch [10/20] Train Loss: 0.222616 Train Acc: 0.9275 Val Loss: 0.197399 Val Acc: 0.9550 LR: 0.050000
+2026-09-06 17:09:32,749 - INFO - Epoch [11/20] Train Loss: 0.212662 Train Acc: 0.9300 Val Loss: 0.190217 Val Acc: 0.9550 LR: 0.050000
+2026-09-06 17:09:34,037 - INFO - Epoch [12/20] Train Loss: 0.203907 Train Acc: 0.9313 Val Loss: 0.183961 Val Acc: 0.9550 LR: 0.050000
+2026-09-06 17:09:34,788 - INFO - Epoch [13/20] Train Loss: 0.196230 Train Acc: 0.9387 Val Loss: 0.184453 Val Acc: 0.9550 LR: 0.050000
+2026-09-06 17:09:35,353 - INFO - Epoch [14/20] Train Loss: 0.191205 Train Acc: 0.9350 Val Loss: 0.178069 Val Acc: 0.9550 LR: 0.050000
+2026-09-06 17:09:36,774 - INFO - Epoch [15/20] Train Loss: 0.186149 Train Acc: 0.9325 Val Loss: 0.173676 Val Acc: 0.9500 LR: 0.050000
+2026-09-06 17:09:37,959 - INFO - Epoch [16/20] Train Loss: 0.180702 Train Acc: 0.9363 Val Loss: 0.168729 Val Acc: 0.9550 LR: 0.050000
+2026-09-06 17:09:38,804 - INFO - Epoch [17/20] Train Loss: 0.177996 Train Acc: 0.9350 Val Loss: 0.170040 Val Acc: 0.9550 LR: 0.050000
+2026-09-06 17:09:39,445 - INFO - Epoch [18/20] Train Loss: 0.174465 Train Acc: 0.9363 Val Loss: 0.164520 Val Acc: 0.9500 LR: 0.050000
+2026-09-06 17:09:40,024 - INFO - Epoch [19/20] Train Loss: 0.170960 Train Acc: 0.9363 Val Loss: 0.170037 Val Acc: 0.9500 LR: 0.050000
+2026-09-06 17:09:40,492 - INFO - Epoch [20/20] Train Loss: 0.168898 Train Acc: 0.9350 Val Loss: 0.166274 Val Acc: 0.9550 LR: 0.050000
+2026-09-06 17:09:40,518 - INFO - ===== Training Finished =====
+2026-09-06 17:09:40,519 - INFO - Best val_loss: 0.164520
+2026-09-06 17:09:40,543 - INFO - Training history saved to: runs/20260906_170924_mlp_classification/history.json
+2026-09-06 17:09:40,732 - INFO - Loss curve saved to: runs/20260906_170924_mlp_classification/figures/loss_curve.png

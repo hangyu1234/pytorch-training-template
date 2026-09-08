@@ -1,0 +1,49 @@
+2026-09-05 14:19:50,041 - INFO - Run directory: runs/20260905_141949_linear_regression
+2026-09-05 14:19:50,042 - INFO - Config snapshot saved to: runs/20260905_141949_linear_regression/config.yaml
+2026-09-05 14:19:50,095 - INFO - Using device: cpu
+2026-09-05 14:19:51,465 - INFO - ===== Training Started =====
+2026-09-05 14:19:51,876 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 10, 'batch_size': 32, 'lr': 0.01, 'device': 'auto'}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}, 'output': {'dir': 'outputs'}, 'resume': {'enabled': False, 'path': 'checkpoints/last.pt'}, 'experiment': {'name': 'linear_regression', 'runs_dir': 'runs'}}
+2026-09-05 14:19:51,887 - INFO - Epoch [1/10] Train Loss: 3.991869 Val Loss: 2.711113 LR: 0.010000
+2026-09-05 14:19:52,064 - INFO - Epoch [2/10] Train Loss: 1.553507 Val Loss: 1.049059 LR: 0.010000
+2026-09-05 14:19:52,119 - INFO - Epoch [3/10] Train Loss: 0.609519 Val Loss: 0.408724 LR: 0.010000
+2026-09-05 14:19:52,275 - INFO - Epoch [4/10] Train Loss: 0.242683 Val Loss: 0.162721 LR: 0.010000
+2026-09-05 14:19:52,330 - INFO - Epoch [5/10] Train Loss: 0.100513 Val Loss: 0.068159 LR: 0.010000
+2026-09-05 14:19:52,378 - INFO - Epoch [6/10] Train Loss: 0.045176 Val Loss: 0.032064 LR: 0.010000
+2026-09-05 14:19:52,428 - INFO - Epoch [7/10] Train Loss: 0.023710 Val Loss: 0.018332 LR: 0.010000
+2026-09-05 14:19:52,469 - INFO - Epoch [8/10] Train Loss: 0.015374 Val Loss: 0.013162 LR: 0.010000
+2026-09-05 14:19:52,512 - INFO - Epoch [9/10] Train Loss: 0.012100 Val Loss: 0.011253 LR: 0.010000
+2026-09-05 14:19:52,558 - INFO - Epoch [10/10] Train Loss: 0.010860 Val Loss: 0.010581 LR: 0.010000
+2026-09-05 14:19:52,607 - INFO - ===== Training Finished =====
+2026-09-05 14:19:52,607 - INFO - Best Val Loss: 0.010581
+2026-09-05 14:19:52,633 - INFO - Training history saved to: runs/20260905_141949_linear_regression/history.json
+2026-09-05 14:19:52,815 - INFO - Loss curve saved to: runs/20260905_141949_linear_regression/figures/loss_curve.png
+2026-09-05 14:21:56,536 - INFO - Run directory: runs/20260905_141949_linear_regression
+2026-09-05 14:21:56,584 - INFO - Using device: cpu
+2026-09-05 14:21:57,997 - INFO - Resumed from checkpoint: runs/20260905_141949_linear_regression/checkpoints/last.pt
+2026-09-05 14:21:57,998 - INFO - Completed epochs: 10
+2026-09-05 14:21:57,998 - INFO - Best Val Loss: 0.010581
+2026-09-05 14:21:58,004 - INFO - Loaded training history: runs/20260905_141949_linear_regression/history.json
+2026-09-05 14:21:58,005 - INFO - ===== Training Started =====
+2026-09-05 14:21:58,005 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 15, 'batch_size': 32, 'lr': 0.01, 'device': 'auto'}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}, 'output': {'dir': 'outputs'}, 'resume': {'enabled': True, 'path': 'runs/20260905_141949_linear_regression/checkpoints/last.pt'}, 'experiment': {'name': 'linear_regression', 'runs_dir': 'runs'}}
+2026-09-05 14:21:58,015 - INFO - Epoch [11/15] Train Loss: 0.010371 Val Loss: 0.010350 LR: 0.010000
+2026-09-05 14:21:58,991 - INFO - Epoch [12/15] Train Loss: 0.010186 Val Loss: 0.010257 LR: 0.010000
+2026-09-05 14:21:59,033 - INFO - Epoch [13/15] Train Loss: 0.010101 Val Loss: 0.010232 LR: 0.010000
+2026-09-05 14:21:59,085 - INFO - Epoch [14/15] Train Loss: 0.010070 Val Loss: 0.010253 LR: 0.010000
+2026-09-05 14:21:59,113 - INFO - Epoch [15/15] Train Loss: 0.010058 Val Loss: 0.010244 LR: 0.010000
+2026-09-05 14:21:59,142 - INFO - ===== Training Finished =====
+2026-09-05 14:21:59,143 - INFO - Best Val Loss: 0.010232
+2026-09-05 14:21:59,276 - INFO - Training history saved to: runs/20260905_141949_linear_regression/history.json
+2026-09-05 14:21:59,436 - INFO - Loss curve saved to: runs/20260905_141949_linear_regression/figures/loss_curve.png
+2026-09-05 14:27:49,582 - INFO - Run directory: runs/20260905_141949_linear_regression
+2026-09-05 14:27:49,641 - INFO - Using device: cpu
+2026-09-05 14:27:51,112 - INFO - Resumed from checkpoint: runs/20260905_141949_linear_regression/checkpoints/last.pt
+2026-09-05 14:27:51,113 - INFO - Completed epochs: 15
+2026-09-05 14:27:51,113 - INFO - Best Val Loss: 0.010232
+2026-09-05 14:27:51,117 - INFO - Loaded training history: runs/20260905_141949_linear_regression/history.json
+2026-09-05 14:27:51,118 - INFO - ===== Training Started =====
+2026-09-05 14:27:51,118 - INFO - Config: {'seed': 42, 'data': {'num_samples': 1000, 'num_features': 3, 'val_ratio': 0.2}, 'model': {'input_dim': 3, 'output_dim': 1}, 'training': {'epochs': 16, 'batch_size': 32, 'lr': 0.01, 'device': 'auto'}, 'checkpoint': {'dir': 'checkpoints'}, 'logging': {'dir': 'logs'}, 'output': {'dir': 'outputs'}, 'resume': {'enabled': True, 'path': 'runs/20260905_141949_linear_regression/checkpoints/last.pt'}, 'experiment': {'name': 'linear_regression', 'runs_dir': 'runs'}}
+2026-09-05 14:27:51,128 - INFO - Epoch [16/16] Train Loss: 0.010057 Val Loss: 0.010252 LR: 0.010000
+2026-09-05 14:27:51,153 - INFO - ===== Training Finished =====
+2026-09-05 14:27:51,154 - INFO - Best Val Loss: 0.010232
+2026-09-05 14:27:51,180 - INFO - Training history saved to: runs/20260905_141949_linear_regression/history.json
+2026-09-05 14:27:51,353 - INFO - Loss curve saved to: runs/20260905_141949_linear_regression/figures/loss_curve.png

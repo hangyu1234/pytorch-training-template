@@ -5,6 +5,7 @@ def create_dataloader(
     dataset,
     batch_size=32,
     shuffle=True,
+    generator=None,
 ):
     """
     Create PyTorch DataLoader.
@@ -22,6 +23,7 @@ def create_dataloader(
         dataset,
         batch_size=batch_size,
         shuffle=shuffle,
+        generator=generator
     )
     return loader
 

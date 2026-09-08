@@ -1,0 +1,15 @@
+{
+    "split": "validation",
+    "task_type": "classification",
+    "checkpoint": "checkpoints/best.pt",
+    "epoch": 18,
+    "selection": {
+        "metric": "val_loss",
+        "mode": "min",
+        "best_metric": 0.1645199128985405
+    },
+    "metrics": {
+        "cross_entropy_loss": 0.1645199128985405,
+        "accuracy": 0.95
+    }
+}

@@ -1,6 +1,10 @@
 seed: 42
 
 
+experiment:
+  name: linear_regression
+  runs_dir: runs
+
 data:
   num_samples: 1000
   num_features: 3
@@ -13,18 +17,18 @@ model:
 
 
 training:
-  epochs: 100
+  epochs: 16
   batch_size: 32
   lr: 0.01
   device: auto
 
+resume:
+  enabled: false
+  path: null
 
-checkpoint:
-  dir: checkpoints
+task:
+  type: regression
 
-
-logging:
-  dir: logs
-
-output:
-  dir: outputs
+selection:
+  metric: val_loss
+  mode: min

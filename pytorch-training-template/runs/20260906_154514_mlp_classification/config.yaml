@@ -1,0 +1,24 @@
+seed: 42
+task:
+  type: classification
+experiment:
+  name: mlp_classification
+  runs_dir: runs
+data:
+  num_samples: 1000
+  num_features: 4
+  num_classes: 3
+  noise_std: 0.8
+  val_ratio: 0.2
+model:
+  input_dim: 4
+  hidden_dim: 16
+  num_classes: 3
+training:
+  epochs: 20
+  batch_size: 32
+  lr: 0.05
+  device: auto
+resume:
+  enabled: false
+  path: null
