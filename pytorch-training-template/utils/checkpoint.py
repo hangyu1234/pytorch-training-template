@@ -6,8 +6,11 @@ def save_checkpoint(
     model,
     optimizer,
     epoch,
-    best_val_loss,
+    best_metric,
     config=None,
+    train_generator=None,
+    selection_metric=None,
+    selection_mode=None,
 ):
     """
     Save training checkpoint.
@@ -27,19 +30,17 @@ def save_checkpoint(
     """
     checkpoint = {
         "epoch": epoch,
-
-        "model_state_dict":
-            model.state_dict(),
-
-        "optimizer_state_dict":
-            optimizer.state_dict(),
-
-        "best_val_loss":
-            best_val_loss,
-
-        "config":
-            config,
+        "model_state_dict": model.state_dict(),
+        "optimizer_state_dict": optimizer.state_dict(),
+        "best_metric": best_metric,
+        "selection_metric": selection_metric,
+        "selection_mode": selection_mode,
+        "config": config,
     }
+    if train_generator is not None:
+        checkpoint["train_generator_state"] = (
+            train_generator.get_state()
+        )
     torch.save(
         checkpoint,
         path,
@@ -49,6 +50,7 @@ def load_checkpoint(
     path,
     model,
     optimizer=None,
+    train_generator=None,
 ):
     """
     Load training checkpoint.
@@ -64,6 +66,13 @@ def load_checkpoint(
 
         optimizer.load_state_dict(
             checkpoint["optimizer_state_dict"]
+        )
+    if (
+        train_generator is not None
+        and "train_generator_state" in checkpoint
+    ):
+        train_generator.set_state(
+            checkpoint["train_generator_state"]
         )
     return checkpoint
 

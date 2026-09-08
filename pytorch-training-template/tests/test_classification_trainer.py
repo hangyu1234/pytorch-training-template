@@ -1,32 +1,35 @@
 import torch
 import torch.nn as nn
 
-from data.dataset import (
-    RegressionDataset,
-    generate_regression_data,
+from data.classification import (
+    ClassificationDataset,
+    generate_classification_data,
 )
 
 from data.dataloader import (
     create_dataloader,
 )
 
-from models.linear import (
-    LinearRegressionModel,
+from models.mlp import (
+    MLPClassifier,
 )
 
 from engine.trainer import (
-    train_one_epoch,
-    evaluate,
+    train_one_epoch_classification,
+    evaluate_classification,
 )
 
 
 def create_test_components():
-    X, y, _, _ = generate_regression_data(
-        num_samples=100,
-        num_features=3,
-        seed=42,
+    X, y, _ = (
+        generate_classification_data(
+            num_samples=120,
+            num_features=4,
+            num_classes=3,
+            seed=42,
+        )
     )
-    dataset = RegressionDataset(
+    dataset = ClassificationDataset(
         X,
         y,
     )
@@ -35,11 +38,14 @@ def create_test_components():
         batch_size=16,
         shuffle=False,
     )
-    model = LinearRegressionModel(
-        input_dim=3,
-        output_dim=1,
+    model = MLPClassifier(
+        input_dim=4,
+        hidden_dim=16,
+        num_classes=3,
     )
-    loss_fn = nn.MSELoss()
+    loss_fn = (
+        nn.CrossEntropyLoss()
+    )
     optimizer = torch.optim.SGD(
         model.parameters(),
         lr=0.01,
@@ -51,27 +57,34 @@ def create_test_components():
         optimizer,
     )
 
-def test_train_one_epoch_returns_loss():
+def test_classification_train_returns_metrics():
     (
         model,
         dataloader,
         loss_fn,
         optimizer,
     ) = create_test_components()
-    loss = train_one_epoch(
-        model,
-        dataloader,
-        loss_fn,
-        optimizer,
-        device="cpu",
+    loss, accuracy = (
+        train_one_epoch_classification(
+            model,
+            dataloader,
+            loss_fn,
+            optimizer,
+            device="cpu",
+        )
     )
     assert isinstance(
         loss,
         float,
     )
+    assert isinstance(
+        accuracy,
+        float,
+    )
     assert loss >= 0
+    assert 0.0 <= accuracy <= 1.0
 
-def test_train_one_epoch_updates_parameters():
+def test_classification_train_updates_parameters():
     (
         model,
         dataloader,
@@ -83,7 +96,7 @@ def test_train_one_epoch_updates_parameters():
         for name, parameter
         in model.named_parameters()
     }
-    train_one_epoch(
+    train_one_epoch_classification(
         model,
         dataloader,
         loss_fn,
@@ -104,26 +117,33 @@ def test_train_one_epoch_updates_parameters():
             changed = True
     assert changed
 
-def test_evaluate_returns_loss():
+def test_classification_evaluate_returns_metrics():
     (
         model,
         dataloader,
         loss_fn,
         _,
     ) = create_test_components()
-    loss = evaluate(
-        model,
-        dataloader,
-        loss_fn,
-        device="cpu",
+    loss, accuracy = (
+        evaluate_classification(
+            model,
+            dataloader,
+            loss_fn,
+            device="cpu",
+        )
     )
     assert isinstance(
         loss,
         float,
     )
+    assert isinstance(
+        accuracy,
+        float,
+    )
     assert loss >= 0
+    assert 0.0 <= accuracy <= 1.0
 
-def test_evaluate_does_not_update_parameters():
+def test_classification_evaluate_does_not_update_parameters():
     (
         model,
         dataloader,
@@ -135,7 +155,7 @@ def test_evaluate_does_not_update_parameters():
         for name, parameter
         in model.named_parameters()
     }
-    evaluate(
+    evaluate_classification(
         model,
         dataloader,
         loss_fn,
@@ -152,7 +172,7 @@ def test_evaluate_does_not_update_parameters():
             parameters_after[name],
         )
 
-def test_evaluate_does_not_create_gradients():
+def test_classification_evaluate_no_gradients():
     (
         model,
         dataloader,
@@ -161,7 +181,7 @@ def test_evaluate_does_not_create_gradients():
     ) = create_test_components()
     for parameter in model.parameters():
         parameter.grad = None
-    evaluate(
+    evaluate_classification(
         model,
         dataloader,
         loss_fn,
